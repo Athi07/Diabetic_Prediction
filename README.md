@@ -64,7 +64,7 @@ The following Python libraries are used in this project:
 - `jupyter`: To run the notebook environment
 
 ## Sample Code
-
+'''
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -154,4 +154,4 @@ new_patient_scaled = scaler.transform(new_patient)
 # Predict using the best model (Random Forest in this case)
 prediction = rfc.predict(new_patient_scaled)
 print(f"Diabetes Prediction for the new patient: {'Diabetic' if prediction[0] == 1 else 'Non-diabetic'}")
-
+'''
